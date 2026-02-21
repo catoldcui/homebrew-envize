@@ -1,8 +1,8 @@
 class Envize < Formula
   desc "CLI tool for switching environment variable profiles"
   homepage "https://github.com/chenhuicui/envize"
-  url "https://registry.npmjs.org/envize/-/envize-1.0.0.tgz"
-  sha256 "9ce21e9a8e581300a9b0a13e83c7b37b53c15b621437bbb1c94e34de8b0e8f64"
+  url "https://registry.npmjs.org/envize/-/envize-1.1.0.tgz"
+  sha256 "4a3da8e8875c4983d14e31033006c7a27c2e8361f8e10134c5ac398494d96635"
   license "MIT"
 
   depends_on "node"

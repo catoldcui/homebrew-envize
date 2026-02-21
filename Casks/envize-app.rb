@@ -16,4 +16,9 @@ cask "envize-app" do
   homepage "https://github.com/catoldcui/envize-app"
 
   app "EnvizeApp.app"
+
+  zap trash: [
+    "~/Library/Application Support/com.chenhuicui.envizeapp",
+    "~/Library/WebKit/com.chenhuicui.envizeapp",
+  ]
 end
